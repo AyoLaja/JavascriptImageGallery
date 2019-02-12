@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #b7b7b7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gallery-highlight {
+    width: 80%;
+    height: 50%;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+}
+
+.room-gallery {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.room-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.room-preview {
+    display: flex;
+    width: 80%;
+    border: 2px solid #1a1a1a;
+}
+
+.room-preview img {
+    height: 100px;
+    flex-grow: 1;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+img.room-active {
+    opacity: 1;
+}
